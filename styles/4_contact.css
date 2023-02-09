@@ -1,0 +1,158 @@
+.container {
+  padding: 0 20px;
+  margin: 0 auto; /* bus visada centre*/
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .container {
+    max-width: 680px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .container {
+    max-width: 920px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+/* mobile first */
+
+/* section one */
+.contact_form {
+  margin-bottom: 200px;
+}
+
+.contact_form h1 {
+  margin-top: 60px;
+  font-size: 35px;
+  font-weight: 800;
+}
+.form {
+  margin-top: 40px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form form input {
+  width: 100%;
+  height: 45px;
+  background-color: var(--light-grey-color);
+  border: none;
+}
+
+::placeholder {
+  color: var(--black-color);
+  padding: 30px;
+}
+
+.form button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  margin-top: 30px;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+
+.working_info {
+  margin-top: 40px;
+}
+.title {
+  font-size: 14px;
+  color: var(--black-color);
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_text {
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* section two */
+
+.map {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-img {
+  position: absolute;
+  margin-top: -120px;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact_form h1 {
+    font-size: 40px;
+    width: 350px;
+  }
+
+  .contact_form {
+    margin-bottom: 400px;
+  }
+
+  .contact_form form input {
+    width: 400px;
+  }
+  .contact_form-items {
+    display: flex;
+    gap: 100px;
+  }
+
+  .map {
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .map-img {
+    position: absolute;
+    margin-top: -450px;
+  }
+
+  .bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

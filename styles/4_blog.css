@@ -1,0 +1,48 @@
+img {
+  width: 100%;
+}
+
+.trending {
+  width: 100%;
+}
+
+.blog_container {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .trending {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 400px;
+  }
+
+  .bg_img {
+    width: 40%;
+    min-width: 200px;
+    background: url(../assets/svg/blog1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 367.5px;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay {
+    background: rgba(30, 27, 27, 0.8);
+    height: 100%;
+  }
+
+  .overlay-2 {
+    background: var(--black-color);
+    height: 100%;
+    mix-blend-mode: lighten;
+  }
+
+  .bg_text {
+    width: 60%;
+    background-color: var(--black-color);
+  }
+}

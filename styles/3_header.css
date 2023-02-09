@@ -1,0 +1,181 @@
+.header-container {
+  display: flex;
+  width: 100%;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.header-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.menu__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 9px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.header-container button:hover {
+  opacity: 0.9;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav ul li {
+  list-style-type: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.call_illustration {
+  display: flex;
+}
+
+.header-left {
+  display: flex;
+  margin-left: 40px;
+  width: 100%;
+}
+
+.line_icon {
+  margin-left: 5px;
+  height: 35px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.call_icon {
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.phone_number {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.assistance {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+.number {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* desktop */
+
+@media screen and (min-width: 1024px) {
+  .header-container {
+    margin: 0 auto; /* bus visada centre*/
+  }
+
+  @media screen and (min-width: 500px) {
+    .header-container {
+      max-width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 680px) {
+    .header-container {
+      max-width: 680px;
+    }
+  }
+
+  @media screen and (min-width: 920px) {
+    .header-container {
+      max-width: 920px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .header-container {
+      max-width: 1000px;
+    }
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .nav button {
+    display: none;
+  }
+
+  .hidden {
+    display: initial;
+  }
+
+  .logo {
+    display: flex;
+    text-align: center;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 250px;
+    white-space: nowrap;
+  }
+
+  .menu-items a {
+    text-decoration: none;
+    color: var(--black-color);
+  }
+
+  .menu-items a:hover {
+    color: var(--grey-color);
+  }
+
+  .header-left {
+    margin-left: 10px;
+  }
+
+  .line_icon {
+    margin-left: 15px;
+    height: 35px;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .call_icon {
+    width: 30px;
+    margin-top: 20px;
+  }
+
+  .phone_number {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+}

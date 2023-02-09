@@ -1,0 +1,488 @@
+.container {
+  padding: 0 20px;
+  margin: 0 auto; /* bus visada centre*/
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .container {
+    max-width: 680px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .container {
+    max-width: 920px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+/* ---- -- section one */
+
+/* left side */
+
+.auto_diagnostics h1 {
+  color: var(--black-color);
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.services_card {
+  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 15px;
+}
+
+.left_side_top {
+  background-color: var(--service-grey-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+}
+
+.card_title {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 30px;
+  letter-spacing: -0.03em;
+}
+
+.cards_item {
+  background-color: var(--white-color);
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards_item img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+/* left side bottom */
+
+.left__side {
+  display: flex;
+  margin-top: 40px;
+}
+
+.left_side_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.bottom_items img {
+  width: 40px;
+}
+
+.bottom_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.icon-with-text {
+  display: flex;
+  gap: 10px;
+}
+
+.title-01 {
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.body-01 {
+  color: var(--black-color);
+  opacity: 0.6;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/* right side */
+
+.right__side img {
+  margin-top: 60px;
+}
+
+.right__side h4 {
+  font-size: 23px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+.right__side p {
+  color: var(--black-text-color);
+  opacity: 0.6;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.right__side h5 {
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 40px;
+}
+
+.text_with_border {
+  border-left: 3px solid black;
+  padding: 15px;
+}
+
+/* --- -- section two */
+.contact {
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.contact__items {
+  display: flex;
+  width: 100%;
+}
+
+.left-img {
+  background-image: url(../assets/svg/about_us_2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.3%;
+  height: 300px;
+}
+
+.contact_text {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  width: 33.3%;
+  height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact_text h3 {
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  margin: 15px;
+}
+
+.contact_text button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  margin: 15px;
+  margin-top: 40px;
+}
+
+.contact_text button:hover {
+  opacity: 0.9;
+}
+
+/*--- -- section three */
+
+.contact_2 {
+  background-color: var(--black-color);
+  opacity: 0.98;
+  color: var(--white-color);
+  padding-bottom: 50px;
+}
+
+.contact_2-left-side h3 {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  width: 300px;
+  letter-spacing: -0.03em;
+  margin-left: 50px;
+}
+
+.contact_2-left-side img {
+  width: 120px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.contact_2-right-side {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.body-02 {
+  font-size: 14px;
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.title-02 {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.right-img {
+  background-image: url(../assets/svg/about_us_3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.3%;
+  height: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+  /* section one */
+
+  .diagnostics {
+    display: flex;
+    width: 100%;
+    gap: 70px;
+  }
+
+  .auto_diagnostics h1 {
+    color: var(--black-color);
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .services_card {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 15px;
+  }
+
+  .left_side_top {
+    background-color: var(--service-grey-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .card_title {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 30px;
+    letter-spacing: -0.03em;
+  }
+
+  .cards_item {
+    background-color: var(--white-color);
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards_item img {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+
+  /* left side bottom */
+
+  .left__side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 30%;
+  }
+
+  .left_side_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bottom_items img {
+    width: 50px;
+  }
+
+  .bottom_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .icon-with-text {
+    display: flex;
+    gap: 10px;
+    margin-left: -60px;
+  }
+
+  .title-01 {
+    font-weight: 600;
+    margin-top: 15px;
+  }
+
+  .body-01 {
+    color: var(--black-color);
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 0;
+  }
+
+  /* right side */
+
+  .right__side {
+    width: 70%;
+  }
+
+  .right__side img {
+    margin-top: 40px;
+  }
+
+  .right__side h4 {
+    font-size: 23px;
+    margin-top: 40px;
+    font-weight: 700;
+  }
+
+  .right__side p {
+    color: var(--black-text-color);
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+  .right__side h5 {
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 40px;
+  }
+
+  .text_with_border {
+    border-left: 3px solid black;
+    padding: 15px;
+  }
+
+  /* section two */
+  .contact {
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .contact__items {
+    display: flex;
+    width: 100%;
+  }
+
+  .left-img {
+    background-image: url(../assets/svg/about_us_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15%;
+    height: 300px;
+  }
+
+  .contact_text {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    width: 40%;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .contact_text h3 {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 25px;
+    width: 300px;
+    letter-spacing: -0.03em;
+    margin-left: 50px;
+  }
+
+  .contact_text button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .contact_text button:hover {
+    opacity: 0.9;
+  }
+
+  .right-img {
+    background-image: url(../assets/svg/about_us_3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+  }
+
+  /* section three */
+
+  .contact_2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .contact_2-left-side {
+    margin-top: 35px;
+    margin-right: 100px;
+  }
+
+  .contact_2-left-side h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .contact_2-right-side {
+    margin-top: 90px;
+  }
+}
