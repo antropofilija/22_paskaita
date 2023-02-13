@@ -551,6 +551,308 @@ span {
   letter-spacing: -0.03em;
 }
 
+/* tablet */
+@media screen and (min-width: 768px) {
+  /* sectioin one */
+
+  .about_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about_us_card {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+  }
+
+  .about-items {
+    display: flex;
+  }
+
+  .bg-img {
+    background-image: url(../assets/svg/about_us.svg);
+    width: 100%;
+  }
+
+  .about_us_card img {
+    display: none;
+  }
+
+  .headline-1 {
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    margin-left: 40px;
+  }
+
+  .text-1 {
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 40px;
+  }
+
+  .btn {
+    width: 150px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 175%;
+    margin-top: 50px;
+  }
+
+  /* section two */
+
+  .headline-3 {
+    font-size: 30px;
+  }
+
+  .text-2 {
+    margin-top: 10px;
+    color: var(--black-text-color);
+    opacity: 0.6;
+    font-weight: 600;
+  }
+
+  .circle_card {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .circles {
+    width: 40px;
+  }
+
+  .circle_line {
+    width: 2px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .circles_text {
+    margin-left: 20px;
+  }
+
+  .title-01 {
+    color: var(--black-color);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .body-01 {
+    color: var(--black-color);
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+  }
+
+  /* section three */
+
+  .about_benefits {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .headline-4 {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .text-3 {
+    width: 200px;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  /* section four */
+
+  .headline-2 {
+    font-size: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .customers-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin: 20px;
+  }
+
+  .customers_cards {
+    width: 333.3px;
+    margin: 0;
+  }
+
+  .ratings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 100px;
+  }
+
+  /* section five */
+
+  .team {
+    display: grid;
+  }
+
+  .team-headline {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: -0.03em;
+    margin-top: 50px;
+  }
+
+  .team__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    gap: 15px;
+  }
+
+  .person__card {
+    width: 100%;
+    height: 332px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person-img-1 {
+    background-image: url(../assets/svg/1-person-card.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 332px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person_info {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+  }
+
+  span {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 600;
+  }
+
+  .person-img-1 button,
+  .person-img-2 button,
+  .person-img-3 button,
+  .person-img-4 button,
+  .person-img-5 button,
+  .person-img-6 button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .person-img-1:hover .person-img-1 button,
+  .person-img-2:hover .person-img-2 button,
+  .person-img-3:hover .person-img-3 button,
+  .person-img-4:hover .person-img-4 button,
+  .person-img-5:hover .person-img-5 button,
+  .person-img-6:hover .person-img-6 button {
+    display: initial;
+  }
+
+  .person-img-2 {
+    background-image: url(../assets/images/paul.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 270px;
+    margin-top: 63px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person-img-3 {
+    background-image: url(../assets/svg/3-person-card.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 332px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person-img-4 {
+    background-image: url(../assets/svg/4-person-card.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 332px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person-img-5 {
+    background-image: url(../assets/svg/5-person-card.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 332px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person-img-6 {
+    background-image: url(../assets/svg/6-person-card.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 332px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* desktop */
 
 @media screen and (min-width: 1024px) {
@@ -671,10 +973,12 @@ span {
     position: absolute;
     display: flex;
     width: 300px;
+    font-size: 25px;
   }
 
   .text-3 {
     width: 300px;
+    font-size: 16px;
   }
 
   /* section four */

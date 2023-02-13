@@ -9,21 +9,34 @@
     <link rel="stylesheet" href="../styles/3_header.css" />
     <link rel="stylesheet" href="../styles/4_post.css" />
     <link rel="stylesheet" href="../styles/5_footer.css" />
+    <script src="../scripts/header.js" defer></script>
     <title>Blog Single</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header-container">
       <div class="nav">
         <div class="logo"><h1>{finsweet</h1></div>
-
-        <button class="menu__button">MENU</button>
+        <div class="toggler"><i class="fa-solid fa-bars"></i></div>
 
         <ul class="hidden menu-items">
-          <li><a href="../index.html"> Home </a></li>
-          <li><a href="./about.html"> About us </a></li>
-          <li><a href="./services.html"> Services </a></li>
-          <li><a href="./blog.html">Blog </a></li>
-          <li><a href="./contact.html"> Contact </a></li>
+          <li class="navigation__item"><a href="../index.html"> Home </a></li>
+          <li class="navigation__item">
+            <a href="./about.html"> About us </a>
+          </li>
+          <li class="navigation__item">
+            <a href="./services.html"> Services </a>
+          </li>
+          <li class="navigation__item"><a href="./blog.html">Blog </a></li>
+          <li class="navigation__item">
+            <a href="./contact.html"> Contact </a>
+          </li>
         </ul>
 
         <div class="header-left">
